@@ -3,5 +3,5 @@ n=123454566
 
 s=str(n)
 l=list(map(int,s))
-print(l)
-print(reduce(sum,l))
+print(max(l))
+# print(reduce(sum,l))
