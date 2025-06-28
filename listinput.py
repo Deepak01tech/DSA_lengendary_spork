@@ -1,6 +1,7 @@
-l=list(input("enter the elementes"))
+# l=list(input("enter the elementes"))
 
-print(l)
+# print(l)1 2
 
 lis=eval(input("enter the elements"))
 print(lis)
+
