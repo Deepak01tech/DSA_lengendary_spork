@@ -10,7 +10,8 @@ root.left.left=Node(40)
 root.left.right=Node(50)
 
 def inorder(root):
-    if root!= None:
-        inorder(root.left)
-        print(root.key,end=" ")
-        inorder(root.right)
+    if root== None:
+        return
+    inorder(root.left)
+    print(root.key,end=" ")
+    inorder(root.right)
